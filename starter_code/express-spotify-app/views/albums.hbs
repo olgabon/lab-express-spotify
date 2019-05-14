@@ -1,0 +1,15 @@
+<div class="container-fluid">
+<div class="row">
+{{#each album}}
+<div class="col-sm-4">
+<div class="card" >
+  <img class="image" src="{{images.[0].url}}" onError="this.onerror=null; this.src='https://placeimg.com/150/150/people/grayscale'">
+  <div class="card-body">
+    <h4 class="card-title">{{name}}</h4>
+    <a href='/tracks/{{id}}' class="btn btn-primary">Check tracks</a>
+  </div>
+</div>
+</div>
+{{/each}}
+</div>
+</div>

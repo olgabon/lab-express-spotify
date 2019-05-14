@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="tracks">
+            <div class="col-sm-3">
+                <h2>Tracks</h2>
+                {{#each track}}
+                    <audio src="{{preview_url}}" controls>
+                    </audio>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+.card img{
+    margin: 10px 40px;
+
+}
+.card {
+    width: 40vw;
+    height: 60vh;
+}
+.card img{
+    margin: 2vh 5vw;
+    width: 20vw;
+    height: 40vh;
+}
